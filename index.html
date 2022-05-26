@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your kitty advisor</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <h1 class="title">The Tiny Tiger</h1>
+      <h2 class="motto">
+        <span class="logo">🐈 </span><br />Your cat friend advisor
+      </h2>
+      <h3 class="instructions">
+        Are you planning to get a pet but you do not know if you want a cat?
+        Do you have a cat already but you are allergic to them? Are you
+        looking to get an expert opinion? Fill the following form and get our
+        free advice! <br />
+      </h3>
+
+      <form class="form" id="form">
+        <label for="name">Your name:</label>
+        <br />
+        <input type="text" id="name" name="name" />
+        <br />
+        <input type="checkbox" id="likes-Cats" name="likes-Cats" value="likes-Cats" />
+        <label for="is-Allergic"> I like cats</label>
+        <br />
+        <input type="checkbox" id="is-Allergic" name="is-Allergic" value="is-Allergic" />
+        <label for="owns-One">I am allergic to cats</label>
+        <br />
+        <input type="checkbox" id="owns-One" name="owns-One" value="owns-One" />
+        <label for="give-Advice"> I already have a cat</label>
+        <br />
+        <br />
+        <button id="give-Advice">Get advice</button>
+        <br />
+        <button id="go-Back">Refresh</button>
+        <br />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </section>
+</body>
+
 </html>

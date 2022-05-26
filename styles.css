@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("https://img5.goodfon.com/wallpaper/nbig/7/4b/cat-feline-back-simple-background-artwork-digital-art-minima.jpg");
+  background-size: 1440px 800px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 700px;
+}
+
+.title {
+  font-size: 50px;
+  color: azure;
+  margin-top: 15px;
+  text-shadow: 3px 3px rgb(3, 3, 3);
+}
+
+.motto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 800px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(40, 207, 132);
+  text-shadow: 2px 2px black;
+  font-weight: lighter;
+}
+
+.logo {
+  margin-right: 310px;
+  font-size: 75px;
+}
+
+.instructions {
+  font-display: flex;
+  margin-top: 10px;
+  margin-right: 140px;
+  margin-left: 140px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: black;
+}
+
+.form {
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#name {
+  width: 200px;
+  padding: 6px 10px;
+  margin: 8px 0;
+  border: 2px solid rgb(19, 15, 212);
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+#give-Advice {
+  width: 160px;
+  height: 35px;
+  background-color: rgb(6, 131, 233);
+  border-radius: 10px;
+  font-size: 25px;
+  border: 2px solid rgb(19, 15, 212);
+  color: rgb(7, 7, 7);
+}
+
+#give-Advice:hover {
+  background-color: #fd27fd;
+}
+
+#go-Back {
+  width: 160px;
+  height: 35px;
+  background-color: rgb(6, 131, 233);
+  border-radius: 10px;
+  font-size: 25px;
+  border: 2px solid rgb(19, 15, 212);
+  color: rgb(7, 7, 7);
+  display: none;
+}
+
+#go-Back:hover {
+  background-color: #fd27fd;
+}
